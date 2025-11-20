@@ -1,0 +1,54 @@
+{
+  "fecha_analisis": "2025-10-05T17:06:23.544333",
+  "modelo": "Modelo 02 - Limpio sin multicolinealidad",
+  "variables_eliminadas": [
+    "edad_madres_dias",
+    "peso_inicial_gramos"
+  ],
+  "variables_seleccionadas": [
+    "mes_carga",
+    "sexo",
+    "kilos_recibidos_percapita",
+    "tipoConstruccion",
+    "densidad_pollos_m2"
+  ],
+  "dataset": {
+    "filas_finales": 6294,
+    "features_originales": 5,
+    "features_finales": 8
+  },
+  "correlaciones": {
+    "ganancia_promedio_gramos": 1.0,
+    "sexo": 0.8441832476845065,
+    "kilos_recibidos_percapita": 0.8267437922631033,
+    "mes_carga": 0.049583870527200494,
+    "densidad_pollos_m2": -0.1946846103697746,
+    "tipoConstruccion": -0.3299385689494847
+  },
+  "vif": [
+    {
+      "Feature": "kilos_recibidos_percapita",
+      "VIF": 15.809633543682773
+    },
+    {
+      "Feature": "densidad_pollos_m2",
+      "VIF": 13.279822389904249
+    },
+    {
+      "Feature": "mes_carga",
+      "VIF": 4.13933746764609
+    }
+  ],
+  "vif_maximo": 15.809633543682773,
+  "modelo_final": {
+    "tipo": "ExtraTreesRegressor",
+    "mae": 1.5406809407533397,
+    "rmse": 2.0623479945258976,
+    "r2": 0.8955601345388631
+  },
+  "comparacion_modelo01": {
+    "mae_diferencia": 0.009980940753339773,
+    "r2_diferencia": -0.006639865461136929,
+    "mae_porcentaje": 0.6520507449754867
+  }
+}

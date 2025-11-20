@@ -1,0 +1,230 @@
+2025-10-05 17:24:42,180:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-10-05 17:24:42,180:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-10-05 17:24:42,180:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-10-05 17:24:42,180:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-10-05 17:24:42,256:INFO:Initializing load_model()
+2025-10-05 17:24:42,256:INFO:load_model(model_name=../../analisis/modelo02/modelo_limpio_final, platform=None, authentication=None, verbose=True)
+2025-10-05 17:24:42,337:INFO:Initializing predict_model()
+2025-10-05 17:24:42,337:INFO:predict_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x0000023D1A0FE1D0>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['kilos_recibidos_percapita',
+                                             'densidad_pollos_m2', 'mes_sin',
+                                             'mes_cos',
+                                             'alimento_por_densidad'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=['sexo', 'tipoConstruccion',
+                                             'densidad_categoria'],
+                                    transformer=SimpleImputer(strateg...
+                                                              handle_missing='return_nan',
+                                                              use_cat_names=True))),
+                ('remove_outliers',
+                 TransformerWrapper(transformer=RemoveOutliers(random_state=42))),
+                ('transformation',
+                 TransformerWrapper(transformer=PowerTransformer(standardize=False))),
+                ('normalize', TransformerWrapper(transformer=StandardScaler())),
+                ('actual_estimator',
+                 ExtraTreesRegressor(n_jobs=-1, random_state=42))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x0000023D1A15F7E0>)
+2025-10-05 17:24:42,337:INFO:Checking exceptions
+2025-10-05 17:24:42,337:INFO:Preloading libraries
+2025-10-05 17:24:42,337:INFO:Set up data.
+2025-10-05 17:24:42,339:INFO:Set up index.
+2025-10-05 17:24:42,464:INFO:Initializing predict_model()
+2025-10-05 17:24:42,464:INFO:predict_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x0000023D1A202E10>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['kilos_recibidos_percapita',
+                                             'densidad_pollos_m2', 'mes_sin',
+                                             'mes_cos',
+                                             'alimento_por_densidad'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=['sexo', 'tipoConstruccion',
+                                             'densidad_categoria'],
+                                    transformer=SimpleImputer(strateg...
+                                                              handle_missing='return_nan',
+                                                              use_cat_names=True))),
+                ('remove_outliers',
+                 TransformerWrapper(transformer=RemoveOutliers(random_state=42))),
+                ('transformation',
+                 TransformerWrapper(transformer=PowerTransformer(standardize=False))),
+                ('normalize', TransformerWrapper(transformer=StandardScaler())),
+                ('actual_estimator',
+                 ExtraTreesRegressor(n_jobs=-1, random_state=42))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x0000023D65D90860>)
+2025-10-05 17:24:42,464:INFO:Checking exceptions
+2025-10-05 17:24:42,464:INFO:Preloading libraries
+2025-10-05 17:24:42,464:INFO:Set up data.
+2025-10-05 17:24:42,466:INFO:Set up index.
+2025-10-05 17:25:03,734:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-10-05 17:25:03,734:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-10-05 17:25:03,734:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-10-05 17:25:03,734:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-10-05 17:25:03,792:INFO:Initializing load_model()
+2025-10-05 17:25:03,792:INFO:load_model(model_name=../../analisis/modelo02/modelo_limpio_final, platform=None, authentication=None, verbose=True)
+2025-10-05 17:25:03,857:INFO:Initializing predict_model()
+2025-10-05 17:25:03,857:INFO:predict_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x000001CCEE41E1D0>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['kilos_recibidos_percapita',
+                                             'densidad_pollos_m2', 'mes_sin',
+                                             'mes_cos',
+                                             'alimento_por_densidad'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=['sexo', 'tipoConstruccion',
+                                             'densidad_categoria'],
+                                    transformer=SimpleImputer(strateg...
+                                                              handle_missing='return_nan',
+                                                              use_cat_names=True))),
+                ('remove_outliers',
+                 TransformerWrapper(transformer=RemoveOutliers(random_state=42))),
+                ('transformation',
+                 TransformerWrapper(transformer=PowerTransformer(standardize=False))),
+                ('normalize', TransformerWrapper(transformer=StandardScaler())),
+                ('actual_estimator',
+                 ExtraTreesRegressor(n_jobs=-1, random_state=42))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x000001CCEE47B740>)
+2025-10-05 17:25:03,857:INFO:Checking exceptions
+2025-10-05 17:25:03,857:INFO:Preloading libraries
+2025-10-05 17:25:03,858:INFO:Set up data.
+2025-10-05 17:25:03,859:INFO:Set up index.
+2025-10-05 17:25:03,988:INFO:Initializing predict_model()
+2025-10-05 17:25:03,989:INFO:predict_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x000001CCEE522810>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['kilos_recibidos_percapita',
+                                             'densidad_pollos_m2', 'mes_sin',
+                                             'mes_cos',
+                                             'alimento_por_densidad'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=['sexo', 'tipoConstruccion',
+                                             'densidad_categoria'],
+                                    transformer=SimpleImputer(strateg...
+                                                              handle_missing='return_nan',
+                                                              use_cat_names=True))),
+                ('remove_outliers',
+                 TransformerWrapper(transformer=RemoveOutliers(random_state=42))),
+                ('transformation',
+                 TransformerWrapper(transformer=PowerTransformer(standardize=False))),
+                ('normalize', TransformerWrapper(transformer=StandardScaler())),
+                ('actual_estimator',
+                 ExtraTreesRegressor(n_jobs=-1, random_state=42))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x000001CCECEE2160>)
+2025-10-05 17:25:03,989:INFO:Checking exceptions
+2025-10-05 17:25:03,989:INFO:Preloading libraries
+2025-10-05 17:25:03,989:INFO:Set up data.
+2025-10-05 17:25:03,990:INFO:Set up index.
+2025-10-05 17:25:04,102:INFO:Initializing predict_model()
+2025-10-05 17:25:04,102:INFO:predict_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x000001CCEE551ED0>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['kilos_recibidos_percapita',
+                                             'densidad_pollos_m2', 'mes_sin',
+                                             'mes_cos',
+                                             'alimento_por_densidad'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=['sexo', 'tipoConstruccion',
+                                             'densidad_categoria'],
+                                    transformer=SimpleImputer(strateg...
+                                                              handle_missing='return_nan',
+                                                              use_cat_names=True))),
+                ('remove_outliers',
+                 TransformerWrapper(transformer=RemoveOutliers(random_state=42))),
+                ('transformation',
+                 TransformerWrapper(transformer=PowerTransformer(standardize=False))),
+                ('normalize', TransformerWrapper(transformer=StandardScaler())),
+                ('actual_estimator',
+                 ExtraTreesRegressor(n_jobs=-1, random_state=42))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x000001CCBB4F3E20>)
+2025-10-05 17:25:04,102:INFO:Checking exceptions
+2025-10-05 17:25:04,102:INFO:Preloading libraries
+2025-10-05 17:25:04,102:INFO:Set up data.
+2025-10-05 17:25:04,105:INFO:Set up index.
+2025-10-05 17:25:16,417:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-10-05 17:25:16,418:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-10-05 17:25:16,418:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-10-05 17:25:16,418:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-10-05 17:25:16,506:INFO:Initializing load_model()
+2025-10-05 17:25:16,506:INFO:load_model(model_name=../../analisis/modelo02/modelo_limpio_final, platform=None, authentication=None, verbose=True)
+2025-10-05 17:25:16,570:INFO:Initializing predict_model()
+2025-10-05 17:25:16,570:INFO:predict_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x000001ACED1E3550>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['kilos_recibidos_percapita',
+                                             'densidad_pollos_m2', 'mes_sin',
+                                             'mes_cos',
+                                             'alimento_por_densidad'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=['sexo', 'tipoConstruccion',
+                                             'densidad_categoria'],
+                                    transformer=SimpleImputer(strateg...
+                                                              handle_missing='return_nan',
+                                                              use_cat_names=True))),
+                ('remove_outliers',
+                 TransformerWrapper(transformer=RemoveOutliers(random_state=42))),
+                ('transformation',
+                 TransformerWrapper(transformer=PowerTransformer(standardize=False))),
+                ('normalize', TransformerWrapper(transformer=StandardScaler())),
+                ('actual_estimator',
+                 ExtraTreesRegressor(n_jobs=-1, random_state=42))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x000001ACED24E8E0>)
+2025-10-05 17:25:16,570:INFO:Checking exceptions
+2025-10-05 17:25:16,570:INFO:Preloading libraries
+2025-10-05 17:25:16,570:INFO:Set up data.
+2025-10-05 17:25:16,572:INFO:Set up index.
+2025-10-05 17:25:16,654:INFO:Initializing predict_model()
+2025-10-05 17:25:16,654:INFO:predict_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x000001ACEE2FBB50>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['kilos_recibidos_percapita',
+                                             'densidad_pollos_m2', 'mes_sin',
+                                             'mes_cos',
+                                             'alimento_por_densidad'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=['sexo', 'tipoConstruccion',
+                                             'densidad_categoria'],
+                                    transformer=SimpleImputer(strateg...
+                                                              handle_missing='return_nan',
+                                                              use_cat_names=True))),
+                ('remove_outliers',
+                 TransformerWrapper(transformer=RemoveOutliers(random_state=42))),
+                ('transformation',
+                 TransformerWrapper(transformer=PowerTransformer(standardize=False))),
+                ('normalize', TransformerWrapper(transformer=StandardScaler())),
+                ('actual_estimator',
+                 ExtraTreesRegressor(n_jobs=-1, random_state=42))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x000001ACED24E8E0>)
+2025-10-05 17:25:16,654:INFO:Checking exceptions
+2025-10-05 17:25:16,654:INFO:Preloading libraries
+2025-10-05 17:25:16,655:INFO:Set up data.
+2025-10-05 17:25:16,657:INFO:Set up index.
+2025-10-05 17:25:16,752:INFO:Initializing predict_model()
+2025-10-05 17:25:16,753:INFO:predict_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x000001ACED319710>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['kilos_recibidos_percapita',
+                                             'densidad_pollos_m2', 'mes_sin',
+                                             'mes_cos',
+                                             'alimento_por_densidad'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=['sexo', 'tipoConstruccion',
+                                             'densidad_categoria'],
+                                    transformer=SimpleImputer(strateg...
+                                                              handle_missing='return_nan',
+                                                              use_cat_names=True))),
+                ('remove_outliers',
+                 TransformerWrapper(transformer=RemoveOutliers(random_state=42))),
+                ('transformation',
+                 TransformerWrapper(transformer=PowerTransformer(standardize=False))),
+                ('normalize', TransformerWrapper(transformer=StandardScaler())),
+                ('actual_estimator',
+                 ExtraTreesRegressor(n_jobs=-1, random_state=42))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x000001ACEE3C3880>)
+2025-10-05 17:25:16,753:INFO:Checking exceptions
+2025-10-05 17:25:16,753:INFO:Preloading libraries
+2025-10-05 17:25:16,753:INFO:Set up data.
+2025-10-05 17:25:16,756:INFO:Set up index.
