@@ -1,5 +1,18 @@
 # PR0 — Estado actual del repositorio
 
+---
+title: "01 – Estado actual del sistema"
+document_type: "estado_actual"
+repo: "etlproject_birds"
+created: "2025-11-22"
+last_updated: "2025-11-22"
+baseline_branch: "main"
+status: "v1-inicial"
+confidence: "GREY"
+notes: "Documento base para iniciar documentación; no refleja arquitectura final."
+---
+
+
 ## 1. Entry point y flujo principal
 - ENTRYPOINT actual (manual/Windows): `ejecucion_vigente/crianzas_vigentes/04_proyeccion_ganancias.py` y el wrapper `ejecucion_vigente/crianzas_vigentes/ejecutar_proyeccion.bat`. 【F:ejecucion_vigente/crianzas_vigentes/04_proyeccion_ganancias.py†L1-L38】【F:ejecucion_vigente/crianzas_vigentes/ejecutar_proyeccion.bat†L1-L59】
 - Secuencia real del pipeline (ejecución manual 01 → 02 → 03 → 04):
