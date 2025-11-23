@@ -15,10 +15,15 @@ Fecha: 2025-10-06
 
 """
 
-import pandas as pd
-import numpy as np
 import sys
 import os
+
+# Hack temporal para importar config desde src/
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '../../..')))
+from src import config
+
+import pandas as pd
+import numpy as np
 from pathlib import Path
 from pycaret.regression import load_model, predict_model
 import warnings
@@ -394,7 +399,7 @@ def main():
             df["tipoConstruccion"],
         )
         df["densidad_pollos_m2"] = np.where(
-            df["densidad_pollos_m2"] < 0, 14.5, df["densidad_pollos_m2"]
+            df["densidad_pollos_m2"] < 0, config.DEFAULT_DENSITY, df["densidad_pollos_m2"]
         )
 
         validar_valores(df, VALORES_VALIDOS, RANGOS_VALIDOS)

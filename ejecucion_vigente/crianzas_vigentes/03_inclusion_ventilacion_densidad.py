@@ -1,3 +1,10 @@
+import sys
+import os
+
+# Hack temporal para importar config desde src/
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '../../..')))
+from src import config
+
 import pandas as pd
 import numpy as np
 import sqlalchemy
@@ -15,11 +22,11 @@ def uniformar_strings(input_str, remove_accents=True):
 
 def query_database(query, database):
     # __server = 'replica-it-eastus2-mysql-spga-prd-001.mysql.database.azure.com'
-    __server = '10.195.6.14'
+    __server = config.DB_HOST
     # __username = 'maestros'
-    __username = 'usuario_lectura'
+    __username = config.DB_USER
     # __password = '8btU0JenEyKqajtc'
-    __password = 'Agro.2025#Read'
+    __password = config.DB_PASSWORD
     __database = database
     __mysql_driver = 'mysql+pymysql'
     __connection_string = f'{__mysql_driver}://{__username}:{__password}@{__server}/{__database}'
