@@ -1,3 +1,10 @@
+---
+generated_from_prompt: "./prompts/01_auditoria_repo.md"
+origen: "Codex"
+estado: "borrador-validable"
+---
+
+
 # Estado actual del sistema de predicción avícola
 
 ## 1. Entry Points y Flujo Principal
