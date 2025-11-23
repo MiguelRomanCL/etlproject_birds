@@ -1,4 +1,8 @@
 /.venv/
 /.venv_pycaret/
 /.idea/
-
+__pycache__/
+*.pyc
+.env
+work_data/
+.DS_Store
