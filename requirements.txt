@@ -1,26 +1,8 @@
-# Análisis de Clusterización - Dependencias
-# =========================================
-
-# Core
-pandas>=1.5.0
-numpy>=1.23.0
-
-# Visualización
-matplotlib>=3.6.0
-seaborn>=0.12.0
-
-# Machine Learning
-scikit-learn>=1.2.0
-
-# Estadística
-scipy>=1.9.0
-
-# Opcional (para análisis extendidos)
-xgboost>=1.7.0
-lightgbm>=3.3.0
-plotly>=5.11.0
-jupyter>=1.0.0
-ipykernel>=6.0.0
-
-# Utilidades
-tabulate>=0.9.0
+pandas
+numpy
+sqlalchemy
+pymysql
+pycaret
+python-dotenv
+tqdm
+openpyxl
