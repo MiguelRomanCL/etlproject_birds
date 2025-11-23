@@ -1,9 +1,15 @@
+import sys
+import os
+
+# Hack temporal para importar config desde src/
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '../../..')))
+from src import config
+
 from pkg_sap_agrosuper import resumen_documentos
 import pandas as pd
 import unicodedata
 import re
 from tqdm import tqdm
-import os
 
 
 def uniformar_strings(input_str, remove_accents=True):
@@ -30,7 +36,7 @@ def split_filename(categoria_param, filename_param):
 
 
 REGENERAR_DATOS = True
-base_path = r'C:\repositorio_data\crianza_web_pollos_vigentes'
+base_path = config.RAW_DATA_PATH
 
 if REGENERAR_DATOS:
 

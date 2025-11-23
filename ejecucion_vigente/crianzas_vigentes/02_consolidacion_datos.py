@@ -1,3 +1,10 @@
+import sys
+import os
+
+# Hack temporal para importar config desde src/
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '../../..')))
+from src import config
+
 import pandas as pd
 import numpy as np
 import unicodedata
@@ -13,7 +20,7 @@ def uniformar_strings(input_str, remove_accents=True):
     return s.lower()
 
 
-EDAD_PROYECCION = 30
+EDAD_PROYECCION = config.PROJECTION_AGE_DAYS
 
 # TODO: Aún no tengo una buena forma de calcular la edad actual por pabellón
 df_resumen_crianzas = pd.read_pickle(r'..\data\resumen_crianzas.pkl')
